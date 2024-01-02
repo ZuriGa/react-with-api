@@ -5,3 +5,7 @@ export const getTopStoriesSuccess = (topStories) => ({
     topStories
 });
 
+export const getTopStoriesFailure = (error) => ({
+    type: c.GET_TOP_STORIES_FAILURE,
+    error
+});
